@@ -1,0 +1,24 @@
+[
+    {
+        "id": 4,
+        "value": "four",
+        "parent": 3
+    },
+    {
+        "id": 1,
+        "value" : "one",
+        "childrens": [{
+            "id": 2,
+            "value": "two"
+        }]
+    },
+    {
+        "id": 3,
+        "value": "three",
+        "parent": 2
+    },
+    {
+        "id": 5,
+        "value": "five"
+    }
+]
