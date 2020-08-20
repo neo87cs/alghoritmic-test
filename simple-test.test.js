@@ -12,8 +12,8 @@ describe('This should work', () => {
         // assertations
         expect(result instanceof Array).to.be.true;
         expect(result).to.have.lengthOf(2);
-        result.forEach(n => {
-            if(result.id===1) {
+        result.forEach(r => {
+            if(r.id===1) {
                 expect(r.childrens['c_2']).to.not.be.undefined;
                 expect(r.childrens['c_2'].childrens['c_3']).to.not.be.undefined;
                 expect(r.childrens['c_2'].childrens['c_3'].childrens['c_4']).to.not.be.undefined;
